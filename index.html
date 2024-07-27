@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="portfolio template to showcase developer projects" name="description">
+  <meta content="Fokir, html, css , portfolio" name="keywords">
   <title>Fokir - Personal Portfolio</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍇</text></svg>">
 
@@ -56,8 +58,7 @@
                 <li><a href="#">  <i class="fa-brands fa-facebook-f"></i></li>
                 <li><a href="#">  <i class="fa-brands fa-twitter"></i></a></li>
                 <li><a href="#">  <i class="fa-brands fa-google"></i></a></li>
-                <li><a href="#"> 
-                <i class="fa-brands fa-github"></i></a></li>
+                <li><a href="#">  <i class="fa-brands fa-github"></i></a></li>
               </ul>
             </div>
           </div>
@@ -73,11 +74,11 @@
         <ul>
           <li><span>Job Title:</span> UI/UX Designer</li>
           <li><span>Location:</span> United States, US</li>
-          <li><span>E-mail:</span> example@gmail.com</li>          
+          <li><span>E-mail:</span> example@gmail.com</li>
         </ul>
         <div class="buttons-container">
-          <button class="btn">Download CV <i class="fa-solid fa-download"></i></button>
-          <button class="btn">Hire Me <i class="fa-solid fa-paper-plane"></i></button>
+          <button aria-label="button to download cv" class="btn">Download CV <i class="fa-solid fa-download"></i></button>
+          <button aria-label="button for hire me" class="btn">Hire Me <i class="fa-solid fa-paper-plane"></i></button>
         </div>
       </div>
       <div class="clear"></div>
@@ -238,16 +239,16 @@
       <div class="line"></div>
       <form class="contact-form">
         <div>
-        <input class="name" placeholder="Name" type="text" name="name" id="name">
+        <input aria-label="input for name" class="name" placeholder="Name" type="text" name="name" id="name">
         <input class="email" placeholder="Email" type="email" name="email" id="email">
       </div>
       <div>
-          <input class="subject" placeholder="Subject" type="text" name="subject" id="subject">
+          <input aria-label="input for subject" class="subject" placeholder="Subject" type="text" name="subject" id="subject">
       </div>
       <div>
-        <textarea class="message" placeholder="Message for me" name="message" id="message" cols="30" rows="10"></textarea>
+        <textarea aria-label="textarea for message" class="message" placeholder="Message for me" name="message" id="message" cols="30" rows="10"></textarea>
       </div>
-      <button class="btn">send message</button>
+      <button aria-label="button to send message" class="btn">send message</button>
       </form>
     </section>
 
